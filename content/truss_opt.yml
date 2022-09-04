@@ -1,0 +1,14 @@
+name: truss_opt
+channels:
+ - conda-forge
+ - default
+dependencies:
+ - conda
+ - python>=3.7
+ - pip
+ - jupyter
+ - jupyterlab
+ - ipympl
+ - pip:
+   - meshio==3.0
+   - solidspy
